@@ -10,6 +10,7 @@
   	<aspectj.version>1.8.5</aspectj.version>
   	<commons.version>2.3</commons.version>
   	<jsr250.version>1.0</jsr250.version>
+  	<junit.version>4.11</junit.version>
   </properties>
   <!-- 依赖jar包 -->
   <dependencies>
@@ -24,6 +25,18 @@
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-aop</artifactId>
   		<version>${spring.version}</version>
+  	</dependency>
+  	<!-- Spring test测试依赖 -->
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-test</artifactId>
+  		<version>${spring.version}</version>
+  	</dependency>
+  	<!-- 添加Junit4支持 -->
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>${junit.version}</version>
   	</dependency>
   	<!-- aspectJ支持 -->
   	<dependency>
